@@ -6,3 +6,4 @@ algorithm.code-workspace
 *.prob
 *.exe
 jspwTest.cpp
+bubble_sort/build/Debug/bubble_sort.o
