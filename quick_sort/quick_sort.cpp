@@ -12,7 +12,7 @@
             i++;
             
         }
-
+        
         while (a[j] > pivot)
         {
             j--;

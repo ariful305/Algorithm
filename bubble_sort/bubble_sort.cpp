@@ -5,13 +5,19 @@ int bubble_sort(int a[], int n) {
     int j, i;
    for (i = 0; i < n - 1; i++)
     {
+        int flag=0;
         for (j = 0; j < n - i - 1; j++)
-        {
-          
-            if (a[j] > a[j + 1])
+        {          
+            if (a[j] >
+             a[j + 1])
             {
                 swap(a[j],a[j+1]);
+                flag =1;
             }
+        }
+        if (!flag)
+        {
+            break;
         }
     }
     //print the array
